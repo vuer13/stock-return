@@ -1,0 +1,8 @@
+data/
+*.csv/
+
+models/
+
+logs/
+data/
+model/
