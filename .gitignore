@@ -6,3 +6,5 @@ models/
 logs/
 data/
 model/
+images/
+__pycache__/
