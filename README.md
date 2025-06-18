@@ -1,0 +1,3 @@
+# Stock Predictor
+
+This project attempted to predict stock returns based on sentiment off text. This model utilized the Kaggle dataset (https://www.kaggle.com/datasets/equinxx/stock-tweets-for-sentiment-analysis-and-prediction), a finetuned FinBert Model and and GRU model to predict the stock return. The FinBert model predicted the sentiment of the news headlines given based on the Kaggle dataset. Then, the GRU model attempted to predict the stock return. Due to the noise of the dataset, the model achieved a really low $R^2$ score (~0). In an attempt to create my own dataset (in data_preprocessing1.ipynb), limits to the API call limited what could be taken. In the future, the model can be tuned further once a better dataset comes out. 
